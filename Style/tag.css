@@ -1,0 +1,32 @@
+/* CSS Document 
+# By Fundamental_YA
+# Last Update: 2024.11.9
+
+*/
+@charset "UTF-8";
+.tag-title-white{
+	color: #FFFFFF!important;
+}
+.tagsvg{
+  position:relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.web-tag-img{
+	background-image: url("../IMG/tags/WEB.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.bililink{
+	background-color:#fff!important;
+}
+.youtubelink{
+	background-color:#fff!important;
+}
+.inslink{
+	background:linear-gradient(70deg,#ffff00, #8c3aaa)!important;
+}
+.xlink{
+	background-color: #11002C!important;
+}

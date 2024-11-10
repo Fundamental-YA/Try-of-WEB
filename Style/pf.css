@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*
+# Fundamental_YA`s profile css
+# By Fundamental_YA
+# Last Update: 2024.8.21
+*/
+:root[data-scheme=dark] {
+	--ftcl:#a0a0a0;
+	
+}
+[data-scheme=light] {
+	--ftcl:#424242;
+}
+.fmpfmain{
+font-size: 1.7rem !important;
+color: var(--ftcl);
+}
+
+.brht{
+	line-height:-0.4 !important;
+}

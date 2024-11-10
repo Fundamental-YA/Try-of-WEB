@@ -1,0 +1,84 @@
+
+@charset "UTF-8";
+:root {
+	--main-top-padding: 35px;
+	--body-background: #f5f5fa;
+	--accent-color: #34495e;
+	--accent-color-darker: #2c3e50;
+	--accent-color-text: #fff;
+	--body-text-color: #bababa;
+	--tag-border-radius: 4px;
+	--section-separation: 40px;
+	--scrollbar-thumb: hsl(0, 0%, 85%);
+	--scrollbar-track: var(--body-background)
+}
+.headtop {
+    border-right: solid 17px #f1f1f1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 263px;
+    background-color: #ffffff;
+}
+
+.infout {
+    height: 58px;
+    border-bottom: #3d3d3d solid 3px;
+    min-width: 885px;
+}
+
+.menu-nav {
+    height: 100%;
+    width: 80px;
+    position: fixed;
+    top: 61px;
+    left: 0;
+    bottom: 0;
+    z-index: 20000;
+    display: block;
+    background: #3d3d3d;
+    background-size: 20px auto;
+}
+
+.outer {
+    width: 20%;
+    background-color: #3d3d3d;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+}
+@media only screen and (max-width: 600px) {
+ 
+    .headtop {
+        visibility: hidden;
+    }
+    
+    .infout {
+        visibility: hidden;
+    }
+    
+    .menu-nav {
+        height: 100%;
+        width: 14%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 20000;
+        display: block;
+        background: #3d3d3d;
+        background-size: 20px auto;
+    }
+    
+    .outer {
+        visibility: hidden;
+    }
+ 
+}
+
+/*
+ Fundamental_YA spare UI
+*/
